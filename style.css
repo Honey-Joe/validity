@@ -34,13 +34,14 @@ body{
     box-shadow: 2px 2px 5px ,
     2px 2px 5px 
                 ;
+    padding-left: 15px;
     
 }
 #i1::placeholder,#pass::placeholder{
     color: black;
     font-weight: 700;
-    padding-left: 10px;
-    margin-left: 10px;
+    padding-left: 5px;
+    margin-left: 7px;
 }
 #sign{
     margin-left: 85px;
