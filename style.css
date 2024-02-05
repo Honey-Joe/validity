@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right,blue,violet);
+}
+.main{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(255, 255, 255,0.2);
+    margin-top: 70px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 3%;
+   background: rgb(255, 255, 255,0.2);
+   border: 2px solid rgba(245, 240, 240, 0.2);
+   box-shadow: 0px 0px 50px 10px black;
+   
+
+}
+.head{
+    margin: 20px;
+    font-family: 'Protest Riot', sans-serif;
+}
+#i1,#pass{
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    box-shadow: 2px 2px 5px ,
+    2px 2px 5px 
+                ;
+    
+}
+#i1::placeholder,#pass::placeholder{
+    color: black;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#sign{
+    margin-left: 85px;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 0px 0px 5px 5px rgb(109, 34, 180);
+}
+.alt{
+    margin-top: 20px;
+    color: rgb(31, 29, 29);
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    color:rgb(30, 30, 126);
+
+}
+.signup{
+    margin-top: 70px;
+    font-family: 'Oswald', sans-serif;
+}

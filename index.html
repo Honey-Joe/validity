@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <div class="main">
+            <div class="head">
+                <h1>Sign in</h1>
+            </div>
+            <div class="form">
+                <form action=""> 
+                    <input type="text" name="" id="i1" placeholder="username or email"><br>
+                    <input type="password" name="" id="pass" placeholder="Password"><br>
+                    
+                    <button id="sign" onclick="valid()">Sign in</button>
+    
+                </form>
+            </div>
+            <div class="alt">
+                <p>or login with</p>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-google"></i>
+                </div>
+                
+    
+            </div>
+            <div class="signup">
+                <p>Sign up</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script>
+    function valid(){
+        a=document.getElementById("i1").value
+        b=document.getElementById("pass").value
+        if(a.length<=8){
+            alert("Username should above 8 characters")
+        }
+        if(b.length<=8){
+            alert("Password must contains 8 characters")
+        }
+    }
+
+</script>
+</html>
