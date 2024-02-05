@@ -2,11 +2,12 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: linear-gradient(to right,blue,violet);
+    background-image: url(pexels-miguel-á-padriñán-255379.jpg);
+    background-size: cover;
 }
 .main{
     width: 350px;
-    height: 500px;
+    height: 550px;
     background-color: rgb(255, 255, 255,0.2);
     margin-top: 70px;
     display: flex;
@@ -15,9 +16,11 @@ body{
     align-items: center;
     flex-wrap: wrap;
     border-radius: 3%;
-   background: rgb(255, 255, 255,0.2);
+   /* background: transparent; */
+   background-color: rgba(255, 255, 255, 0.171);
    border: 2px solid rgba(245, 240, 240, 0.2);
-   box-shadow: 0px 0px 50px 10px black;
+   /* box-shadow: 0px 0px 50px 10px black; */
+   position: relative;
    
 
 }
@@ -25,26 +28,26 @@ body{
     margin: 20px;
     font-family: 'Protest Riot', sans-serif;
 }
-#i1,#pass{
+#i1,#pass,#confirm{
     width: 250px;
     height: 35px;
     border-radius: 20px;
     border: none;
-    margin: 10px;
+    margin: 10px 40px;
     box-shadow: 2px 2px 5px ,
     2px 2px 5px 
                 ;
     padding-left: 15px;
     
 }
-#i1::placeholder,#pass::placeholder{
+#i1::placeholder,#pass::placeholder,#confirm::placeholder{
     color: black;
     font-weight: 700;
     padding-left: 5px;
     margin-left: 7px;
 }
 #sign{
-    margin-left: 85px;
+    margin-left: 120px;
     margin-top: 15px;
     width: 100px;
     height: 40px;
@@ -66,6 +69,17 @@ body{
 
 }
 .signup{
-    margin-top: 70px;
+    margin-top: 30px;
     font-family: 'Oswald', sans-serif;
+}
+.fa-eye{
+    position: absolute;
+    top:200px ;
+    left: 275px;
+    /* bottom: 50px; */
+    
+}
+#eye2{
+    position: absolute;
+    top: 257px;
 }
