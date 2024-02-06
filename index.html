@@ -22,10 +22,18 @@
             <div class="form">
                 <form action=""> 
                     <input type="text" name="" id="i1" placeholder="Username or Email"><br>
-                    <input type="password" name="" id="pass" placeholder="Password">
-                    <i class="fa-regular fa-eye" id="eye1"></i><br>
-                    <input type="password" name="" id="confirm" placeholder="Confirm password">
-                    <i class="fa-regular fa-eye" id="eye2" onclick="show()"></i>
+                    <div class="pass">
+                        <input type="password" name="" id="pass" placeholder="Password">
+                    <i class="fa-regular fa-eye" id="eye" onclick="show()"></i>
+                    <i class="fa-regular fa-eye-slash" id="slash" onclick="check()"></i><br>
+                    </div>
+                    <div class="pass2">
+                        <input type="password" name="" id="confirm" placeholder="Confirm password">
+                    <i class="fa-regular fa-eye" id="eye1" onclick="showo()"></i>
+                    <i class="fa-regular fa-eye-slash" id="slash1" onclick="checko()"></i>
+                    </div>
+                    
+                    
                     <button id="sign" onclick="valid()">Sign in</button>
                 </form>
             </div>
@@ -59,6 +67,26 @@
         else if(b==c){
             alert("Password doesn't match")
         }
+    }
+    function show(){
+        document.getElementById("slash").style.display="block"
+        document.getElementById("eye").style.display="none"
+        
+    }
+    function showo(){
+        document.getElementById("slash1").style.display="block"
+        document.getElementById("eye1").style.display="none"
+        
+
+    }
+    function check(){
+        document.getElementById("slash").style.display="none"
+        document.getElementById("eye").style.display="block"
+
+    }
+    function checko(){
+        document.getElementById("slash1").style.display="none"
+        document.getElementById("eye1").style.display="block"
     }
     
 </script>

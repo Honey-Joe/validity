@@ -73,14 +73,20 @@ body{
     margin-top: 30px;
     font-family: 'Oswald', sans-serif;
 }
-.fa-eye{
-    position: absolute;
-    top:200px ;
-    left: 275px;
-    /* bottom: 50px; */
-    
+.pass{
+    position: relative;
 }
-#eye2{
+#eye,#slash,#eye1,#slash1{
     position: absolute;
-    top: 257px;
+    top: 20px;
+    left: 270px;
 }
+.pass2{
+    position: relative;
+}
+#slash1,#slash{
+    display: none;
+}
+
+
+
