@@ -73,45 +73,18 @@ body{
     margin-top: 30px;
     font-family: 'Oswald', sans-serif;
 }
-<<<<<<< HEAD
-.fa-eye{
-    position: absolute;
-    top:200px ;
-    left: 275px;
-    /* bottom: 50px; */
-    display: none;
-    
-=======
 .pass{
     position: relative;
->>>>>>> a12a32a9ce65998057bc3b8d6e958c74cafd7968
 }
-#eye,#slash,#eye1,#slash1{
+#eye,#eye1,#slash,#slash1{
     position: absolute;
-<<<<<<< HEAD
-    top: 255px;
-    /* display: block; */
-    /* display: none; */
-}
-#slash{
-    position: absolute;
-    top: 200px;
-    left: 275px;
-}
-#slash1{
-    position: absolute;
-    top:255px ;
-    left: 275px;
-    display: none;
-=======
-    top: 20px;
+    top:20px;
     left: 270px;
->>>>>>> a12a32a9ce65998057bc3b8d6e958c74cafd7968
 }
 .pass2{
     position: relative;
 }
-#slash1,#slash{
+#slash,#slash1{
     display: none;
 }
 
