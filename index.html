@@ -23,9 +23,11 @@
                 <form action=""> 
                     <input type="text" name="" id="i1" placeholder="Username or Email"><br>
                     <input type="password" name="" id="pass" placeholder="Password">
-                    <i class="fa-regular fa-eye" id="eye1"></i><br>
+                    <i class="fa-regular fa-eye" id="eye1"></i>
+                    <i class="fa-regular fa-eye-slash" id="slash" onclick="show()"></i><br>
                     <input type="password" name="" id="confirm" placeholder="Confirm password">
                     <i class="fa-regular fa-eye" id="eye2" onclick="show()"></i>
+                    <i class="fa-regular fa-eye-slash" id="slash1"></i>
                     <button id="sign" onclick="valid()">Sign in</button>
                 </form>
             </div>
@@ -59,6 +61,14 @@
         else if(b==c){
             alert("Password doesn't match")
         }
+    }
+    function show(){
+        var id=document.getElementById("eye1")
+        if(id.style.display==="none"){
+            id.style.display="block"
+        }
+
+
     }
     
 </script>

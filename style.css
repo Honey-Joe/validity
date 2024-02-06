@@ -78,9 +78,23 @@ body{
     top:200px ;
     left: 275px;
     /* bottom: 50px; */
+    display: none;
     
 }
 #eye2{
     position: absolute;
-    top: 257px;
+    top: 255px;
+    /* display: block; */
+    /* display: none; */
+}
+#slash{
+    position: absolute;
+    top: 200px;
+    left: 275px;
+}
+#slash1{
+    position: absolute;
+    top:255px ;
+    left: 275px;
+    display: none;
 }
