@@ -69,25 +69,50 @@
         }
     }
     function show(){
+        
         document.getElementById("slash").style.display="block"
         document.getElementById("eye").style.display="none"
+        var a=document.getElementById("slash")
+        var b=document.getElementById("pass")
+        if(a.style.display==="block"){
+            b.type="text";
+
+        }
         
         
     }
     function showo(){
         document.getElementById("slash1").style.display="block"
         document.getElementById("eye1").style.display="none"
+        var a=document.getElementById("slash1")
+        var b=document.getElementById("confirm")
+        if(a.style.display==="block"){
+            b.type="text";
+
+        }
         
 
     }
     function check(){
         document.getElementById("slash").style.display="none"
         document.getElementById("eye").style.display="block"
+        var a=document.getElementById("eye")
+        var b=document.getElementById("pass")
+        if(a.style.display==="block"){
+            b.type="password";
+
+        }
 
     }
     function checko(){
         document.getElementById("slash1").style.display="none"
         document.getElementById("eye1").style.display="block"
+        var a=document.getElementById("eye1")
+        var b=document.getElementById("confirm")
+        if(a.style.display==="block"){
+            b.type="password";
+
+        }
     }
     
 </script>
