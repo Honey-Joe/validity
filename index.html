@@ -22,12 +22,27 @@
             <div class="form">
                 <form action=""> 
                     <input type="text" name="" id="i1" placeholder="Username or Email"><br>
+<<<<<<< HEAD
                     <input type="password" name="" id="pass" placeholder="Password">
                     <i class="fa-regular fa-eye" id="eye1"></i>
                     <i class="fa-regular fa-eye-slash" id="slash" onclick="show()"></i><br>
                     <input type="password" name="" id="confirm" placeholder="Confirm password">
                     <i class="fa-regular fa-eye" id="eye2" onclick="show()"></i>
                     <i class="fa-regular fa-eye-slash" id="slash1"></i>
+=======
+                    <div class="pass">
+                        <input type="password" name="" id="pass" placeholder="Password">
+                    <i class="fa-regular fa-eye" id="eye" onclick="show()"></i>
+                    <i class="fa-regular fa-eye-slash" id="slash" onclick="check()"></i><br>
+                    </div>
+                    <div class="pass2">
+                        <input type="password" name="" id="confirm" placeholder="Confirm password">
+                    <i class="fa-regular fa-eye" id="eye1" onclick="showo()"></i>
+                    <i class="fa-regular fa-eye-slash" id="slash1" onclick="checko()"></i>
+                    </div>
+                    
+                    
+>>>>>>> a12a32a9ce65998057bc3b8d6e958c74cafd7968
                     <button id="sign" onclick="valid()">Sign in</button>
                 </form>
             </div>
@@ -63,6 +78,7 @@
         }
     }
     function show(){
+<<<<<<< HEAD
         var id=document.getElementById("eye1")
         if(id.style.display==="none"){
             id.style.display="block"
@@ -70,6 +86,27 @@
 
 
     }
+=======
+        document.getElementById("slash").style.display="block"
+        document.getElementById("eye").style.display="none"
+        
+    }
+    function showo(){
+        document.getElementById("slash1").style.display="block"
+        document.getElementById("eye1").style.display="none"
+        
+
+    }
+    function check(){
+        document.getElementById("slash").style.display="none"
+        document.getElementById("eye").style.display="block"
+
+    }
+    function checko(){
+        document.getElementById("slash1").style.display="none"
+        document.getElementById("eye1").style.display="block"
+    }
+>>>>>>> a12a32a9ce65998057bc3b8d6e958c74cafd7968
     
 </script>
 </html>
